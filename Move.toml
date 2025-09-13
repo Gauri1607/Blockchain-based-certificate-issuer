@@ -1,0 +1,15 @@
+[package]
+name = "Blockchain-based-certificate-issuer"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule ="0xd0f8138c1f7346f70e5cfe8f4dca445456e91898ef748e25999a3840695e6359"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
